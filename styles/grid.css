@@ -1,0 +1,17 @@
+.Imagem{
+    width: 200px!important;
+    height: 150px!important;
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+}
+.titulo{
+    font-size: 20px;
+    color: rgb(103, 30, 95);
+    margin-bottom: 7px;
+    text-align: center;
+}
