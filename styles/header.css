@@ -60,8 +60,25 @@
 @media screen and (min-width: 1024px) {
     .titulo__cabecalho{
         font-size: 30px;
+        font-family: oswald;
         color: darkgrey (43, 226, 101);
         display: block;
     }
+.opcoes{
+    display: flex;
+}
+ .opcoes_item{
+    padding: 0 1em;
+}
+ .opcoes__link{
+    text-decoration: none;
+    color: var(--roxo-degrade);
+ }
+.container__imagem--trnsparente{
+    display: none;
+}
+.cabecalho__menu-hamburguer{
+    display: none;
+}
 
 }
