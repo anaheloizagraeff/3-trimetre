@@ -57,6 +57,10 @@
 .titulo__cabecalho{
     display: none;
 }
+.opcoes{
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .titulo__cabecalho{
         font-size: 30px;
@@ -78,6 +82,14 @@
     display: none;
 }
 .cabecalho__menu-hamburguer{
+    display: none;
+}
+
+.opcoes__botao:checked~.lista-menu{
+    display: block;
+    width: auto;
+}
+.opcoes__botao{
     display: none;
 }
 
